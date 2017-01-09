@@ -16,3 +16,6 @@
 !/log/.keep
 /tmp
 *.swp
+
+
+app/assets/stylesheets/custom.scss

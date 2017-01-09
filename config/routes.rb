@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'css' => 'css_customier#index'
+  post 'css/update' => 'css_customier#update'
+
   root 'home#index'
 
   # The priority is based upon order of creation: first created -> highest priority.

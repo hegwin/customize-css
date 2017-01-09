@@ -1,0 +1,17 @@
+<h1>Customize Sass Variables</h1>
+
+<%= form_tag css_update_path do |f| %>
+  <div>
+    <%= label_tag 'color_success' %>
+    <%= text_field_tag 'color_success' %>
+  </div>
+
+  <div>
+    <%= label_tag 'color_error' %>
+    <%= text_field_tag 'color_error' %>
+  </div>
+
+  <div>
+    <%= submit_tag 'Save' %>
+  </div>
+<% end %>

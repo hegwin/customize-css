@@ -1,0 +1,22 @@
+@import 'base';
+@import 'custom';
+
+h1 {
+  font-size: $type-h1;
+}
+
+h2 {
+  font-size: $type-h2;
+}
+
+h3 {
+  font-size: $type-h3;
+}
+
+.error {
+  color: $color-error;
+}
+
+.success {
+  color: $color-success;
+}

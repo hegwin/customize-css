@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'stream' => 'pusher#stream'
+  get 'pusher' => 'pusher#index'
+
   get 'css' => 'css_customier#index'
   post 'css/update' => 'css_customier#update'
 
